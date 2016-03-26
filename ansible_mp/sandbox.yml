@@ -1,0 +1,9 @@
+---
+# This playbook used to snapshot tenant instances. 
+
+- hosts: localhost
+  user: 
+  remote_user: 
+  sudo: no
+  roles:
+    - create-snapshot
